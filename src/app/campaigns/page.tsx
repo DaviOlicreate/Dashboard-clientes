@@ -1,3 +1,4 @@
+export const dynamic = 'force-dynamic';
 import { db } from "@/lib/db";
 import { dailyMetrics } from "@/lib/db/schema";
 import { sum, desc } from "drizzle-orm";

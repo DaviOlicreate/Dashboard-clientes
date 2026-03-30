@@ -1,3 +1,4 @@
+export const dynamic = 'force-dynamic';
 import { MetricCard } from "@/components/shared/metric-card";
 import { getDashboardOverview } from "@/server/services/dashboard.service";
 import { TrendChart } from "@/components/dashboard/trend-chart";
