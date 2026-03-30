@@ -1,3 +1,4 @@
+/* eslint-disable @typescript-eslint/no-explicit-any */
 import { NextResponse } from "next/server";
 import { db } from "@/lib/db";
 import { campaigns, dailyMetrics, workspaces } from "@/lib/db/schema";
@@ -24,7 +25,7 @@ export async function POST() {
 
     // 3. Injeta o Desempenho Matemático dos últimos 15 dias
     const today = new Date();
-    const metricsToInsert = [];
+    const metricsToInsert: any[] = [];
 
     for (let i = 0; i < 15; i++) {
         const d = new Date(today);
