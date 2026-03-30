@@ -38,7 +38,7 @@ export default function RootLayout({
           <Sidebar className="hidden md:flex w-[260px] flex-col" />
           
           <div className="flex flex-1 flex-col overflow-hidden">
-            <Topbar className="border-b border-zinc-200 bg-white/80 backdrop-blur-md sticky top-0 z-10" />
+            <Topbar />
             
             <main className="flex-1 overflow-y-auto p-4 md:p-8">
               <div className="mx-auto max-w-7xl animate-in fade-in slide-in-from-bottom-4 duration-500">
